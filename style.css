@@ -1,0 +1,53 @@
+.grid{
+    display:flex;
+    padding:30px;   
+    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: cyan;
+}
+
+.header{
+    background-color:lightpink;
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    position: relative;
+    background-color:white;
+    width: 300px;
+}
+
+.item p{
+    position: absolute;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    font-family: cursive;
+    font-size: 50;
+} 
+
+.item:hover p{
+    opacity: 1;
+    font-family: cursive;
+    font-size: 50;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:white;
+}
